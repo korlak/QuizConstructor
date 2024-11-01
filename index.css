@@ -1,0 +1,55 @@
+body{
+    background-color: burlywood;
+    color: midnightblue;
+    font-family: "Tiny5", "Silkscreen", "Courier New";
+}
+
+header{
+    background-color: black;
+    color: white;
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+}
+.Title{
+    text-decoration: dashed;
+    font-family: "Silkscreen", "Courier New";
+}
+.Button{
+    margin: 5px;
+    color: lightblue;
+    border: 6px dashed midnightblue;
+    background-color: rgb(36, 36, 177);
+    text-shadow: 3px;
+    width: 550px;
+    height: 65px;
+    font-family: "Tiny5", "Silkscreen", "Courier New";
+}
+
+.CenterText {
+    text-align: center;
+}
+.CenterArray {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.Answers {
+    font-size: larger;
+}
+.Answer { 
+    margin: 5px;
+    width: 30%;
+    height: 50px;
+    color: lightblue;
+    border: 6px dashed midnightblue;
+    background-color: rgb(36, 36, 177);
+    line-height: 45px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
